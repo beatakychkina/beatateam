@@ -1,0 +1,110 @@
+   87  docker ps
+   88  newgrp docker
+   89  man history
+   90  history
+   91  git config --global user.name "bebebe"
+   92  git config --global user.email "beatakychkina@yandex.ru"
+   93  git config --global core.editor nano
+   94  git config --list
+   95  git config --global user.name "bebebe"
+   96  git config --global user.email "beatakychkina@yandex.ru"
+   97  git config --global core.editor nano
+   98  git config --global alias.ll 'log --oneline --decorate --graph --all'
+   99  git config --list
+  100  git ll
+  101  mkdir KBL
+  102  cd KBL/
+  103  git init
+  104  cd ../test/
+  105  ls
+  106  make -f make2
+  107  ls
+  108  make clear -f make2
+  109  cat make2
+  110  cd ../KBL/
+  111  vim .gitignore
+  112  cat .gitignore 
+  113  git status
+  114  git add -A
+  115  git status
+  116  git commit -m "first commit"
+  117  git ll
+  118  git help log
+  119  cd ..
+  120  git config --global user.name "bebebe"
+  121  git config --global user.email "beatakychkina@yandex.ru"
+  122  git config --global core.editor nano
+  123  git config --global alias.ll 'log --oneline --decorate --graph --all'
+  124  git config --list
+  125  cd KBL/
+  126  git ll
+  127  vim hello.cpp 
+  128  git status
+  129  git add hello.cpp 
+  130  git status
+  131  git reset HEAD
+  132  git status
+  133  git checkout --
+  134  git status
+  135  git checkout -- hello.cpp
+  136  git status
+  137  cd teamlead/
+  138  git clone https://github.com/beatakychkina/beatateam.git
+  139  cd ../user1/
+  140  git clone https://github.com/beatakychkina/beatateam.git
+  141  cd ../user2
+  142  git clone https://github.com/beatakychkina/beatateam.git
+  143  cd ../user3/
+  144  git clone https://github.com/beatakychkina/beatateam.git
+  145  cd ../teamlead/
+  146  cd beatateam/
+  147  cd ../../user1/
+  148  cd beatateam/
+  149  vim hello_kbl1.cpp
+  150  vim hello_kbl1.h
+  151  cd ../../teamlead/beatateam/
+  152  vim main.cpp
+  153  vim hello.h 
+  154  cd ../../user1/
+  155  cd -
+  156  g++ *.cpp *.h
+  157  ls
+  158  ./a.out 
+  159  g++ *.cpp *.h
+  160  ./a.out 
+  161  cd ../../user1/
+  162  cd beatateam/
+  163  git status
+  164  git commit -am "user1 commit"
+  165  git status
+  166  git add hello_kbl1.cpp 
+  167  git commit -am "user1 commit"
+  168  git push
+  169  cd ../../user2/beatateam/
+  170  git status
+  171  git add hello_kbl2.cpp 
+  172  git commit -m "user2 commit"
+  173  git pull
+  174  git push
+  175  cd ../../user3/beatateam/
+  176  git status
+  177  git add hello_kbl3.cpp 
+  178  git commit -m "user3 commit"
+  179  git pull
+  180  git push
+  181  cd ../../teamlead/beatateam/
+  182  git status
+  183  git add -A
+  184  git commit -m "teamlead commit"
+  185  git pull
+  186  ls
+  187  vim hello_kbl1.cpp 
+  188  git status
+  189  git add hello_kbl1.cpp 
+  190  git commit -m "adding comment"
+  191  git push
+  192  git ll
+  193  git reset --hard HEAD^1
+  194  git ll
+  195  history
+  196  history 110 > history_kbl.txt
